@@ -1,0 +1,86 @@
+.contact-us {
+  text-align: center;
+  padding: 80px 20px;
+  background: #ffe8c5;
+  border-top: 1px solid #f7d1d1;
+}
+
+.contact-us h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.contact-text {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  font-size: 16px;
+  color: #444;
+}
+
+.call-button {
+  display: inline-block;
+  padding: 14px 34px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #000;
+  border-radius: 40px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.call-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.phone-number {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #666;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.follow {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.follow p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.social-icons a {
+  color: #fffefe;
+  font-size: 20px;
+  transition: opacity 0.2s ease;
+}
+
+.social-icons a:hover {
+  opacity: 0.6;
+}

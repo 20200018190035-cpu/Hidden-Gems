@@ -1,0 +1,106 @@
+h1{
+    color: rgb(2, 6, 68);
+    text-align: center;
+}
+body {
+      background-color: rgb(221,172,126);
+      
+}
+p{
+    font-size: 25px;
+    font-style: inherit;
+    color: rgb(0, 0, 0);
+}
+nav{
+    background-color: rgb(255, 250, 201);
+    font-size: 24px;
+    
+}
+nav a:hover{
+    background-color: rgb(255, 235, 171);
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    float:left;
+
+}
+.nav {
+  background: #cfbb8f; 
+  padding: 14px 45px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  float: inline-start;
+}
+padding: 16px 80px;
+.nav-left {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fadb97;
+  letter-spacing: 1px;
+}
+.nav-right {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 14px;
+}
+
+.nav-right a:hover {
+  color: #e6c98a;
+}
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  background-color: rgb(221, 172, 126);
+
+ 
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.newsletter-text p {
+  font-size: 16px;
+  color: #444;
+  max-width: 520px;
+  line-height: 1.6;
+}
+.newsletter-form {
+  min-width: 420px;
+}
+
+.newsletter-form label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+}
+.input-group {
+  display: flex;
+  gap: 12px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 14px 16px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
